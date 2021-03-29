@@ -1,0 +1,69 @@
+body{
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+
+.head{
+  text-align:center;
+  font-size: large;
+
+}
+
+.App{
+ /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+
+/* .container{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  /*padding: 20px;
+  margin: 10px;
+}  */
+
+form{
+  /* background-color: aqua; */
+  border-radius: 25px;
+  border: 2px solid white;
+  height: 60%;
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  padding: 25px;
+  margin-left: 20%;
+}
+ 
+form input{
+  margin: 5px;
+  font-size: small;
+  border-radius: 10px;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.btn{
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border-radius: 15px;
+  border: 1px solid white;
+
+}
+.output{
+border: 2px solid white;
+display: grid;
+justify-content: center;
+align-items: center;
+height: 60%;
+width: 55%;
+margin-left: 20%;
+border-radius: 10px;
+}
